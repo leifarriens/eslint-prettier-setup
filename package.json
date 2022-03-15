@@ -1,0 +1,26 @@
+{
+  "name": "eslint-prettier-setup",
+  "version": "0.1.0",
+  "description": "Quick setup for eslint with prettier",
+  "scripts": {
+    "lint": "eslint --ext .js",
+    "lint:fix": "--ext .jsx --fix",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "eslint",
+    "prettier",
+    "setup"
+  ],
+  "author": "Leif Arriens",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.2",
+    "prettier": "^2.5.1"
+  }
+}
